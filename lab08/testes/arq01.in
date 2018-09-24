@@ -1,0 +1,25 @@
+10 10
+insere Raekwon
+insere MethodMan
+insere RZA
+insere GZA
+insere ODB
+consulta Raekwon
+consulta MethodMan
+consulta RZA
+consulta GZA
+consulta ODB
+12 10
+insere Billy
+insere Jason
+insere Trini
+insere Kimberly
+insere Zack
+matricula Billy MC102
+matricula Jason MC202
+consulta Billy
+consulta Jason
+consulta Trini
+consulta Kimberly
+consulta Zack
+0

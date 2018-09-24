@@ -1,0 +1,45 @@
+#!/bin/bash
+
+if [ $# -ne 2 ]
+then
+    echo "Usage: $0 EXECUTABLE TESTS"
+    exit
+fi
+
+if [ ! -x $1 ]
+then
+    echo "$0: $1: invalid executable"
+    exit
+fi
+
+if [[ ! ( -d $2 && -x $2 && -w $2 && -r $2) ]]
+then
+    echo "$0: $2: invalid directory"
+    exit
+fi
+
+for f in $(find $2 -name "*.in" 2> /dev/null)
+do 
+    echo -n "$f: "
+    echo ${f%.in}.out
+    diff <(valgrind -q --leak-check=full --track-origins=yes ./$1 < $f 2> vgres) ${f%.in}.out > diffres 
+
+    if [ $? -eq 0 ]
+    then 
+	echo -n "ok"
+    else
+	echo -n "nope"
+	mv -f diffres ${f%.in}.diff
+    fi
+
+    if [ -s vgres ]
+    then
+	echo -n ", valgrind error"
+	mv -f vgres ${f%.in}.vg
+    fi
+    
+    echo ""
+
+done
+rm -f diffres
+rm -f vgres

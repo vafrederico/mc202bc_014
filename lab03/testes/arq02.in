@@ -1,0 +1,79 @@
+4
+16Mb
+insere a1 2Mb
+insere a2 513Kb
+insere a3 2Mb
+remove a2
+24
+16Kb
+insere aaaaaaaaaa 1Kb
+insere bbbbbbbbbb 1Kb
+insere cccccccccc 1Kb
+insere dddddddddd 1Kb
+insere eeeeeeeeee 1Kb
+insere ffffffffff 1Kb
+insere gggggggggg 1Kb
+insere hhhhhhhhhh 1Kb
+insere aaaaaaaaa1 1Kb
+insere bbbbbbbbb1 1Kb
+insere ccccccccc1 1Kb
+insere ddddddddd1 1Kb
+insere eeeeeeeee1 1Kb
+insere fffffffff1 1Kb
+insere ggggggggg1 1Kb
+insere hhhhhhhhh1 1Kb
+remove aaaaaaaaa1
+remove ccccccccc1
+remove eeeeeeeee1
+remove ggggggggg1
+remove aaaaaaaaaa
+remove cccccccccc
+remove eeeeeeeeee
+remove gggggggggg
+12
+40Kb
+insere arq001 5Kb
+insere arq002 5Kb
+insere arq003 5Kb
+insere arq004 5Kb
+insere arq005 5Kb
+insere arq006 5Kb
+insere arq007 5Kb
+insere arq008 5Kb
+remove arq001
+remove arq003
+remove arq005
+remove arq007
+12
+40Kb
+insere arq001 5Kb
+insere arq002 5Kb
+insere arq003 5Kb
+insere arq004 5Kb
+insere arq005 5Kb
+insere arq006 5Kb
+insere arq007 5Kb
+insere arq008 5Kb
+remove arq002
+remove arq004
+remove arq006
+remove arq008
+16
+40Kb
+insere arq001 5Kb
+insere arq002 5Kb
+insere arq003 5Kb
+insere arq004 5Kb
+insere arq005 5Kb
+insere arq006 5Kb
+insere arq007 5Kb
+insere arq008 5Kb
+remove arq002
+remove arq004
+remove arq006
+remove arq008
+insere arq002 5Kb
+insere arq004 5Kb
+insere arq006 5Kb
+insere arq008 5Kb
+0

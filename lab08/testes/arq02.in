@@ -1,0 +1,20 @@
+18 26
+insere Inigo
+insere Westley
+insere Buttercup
+insere Fezzik
+insere Vizzini
+matricula Vizzini MA159
+consulta Vizzini
+matricula Vizzini BD190
+consulta Vizzini
+desmatricula Vizzini MA159
+consulta Vizzini
+consulta Inigo
+consulta Fezzik
+remove Vizzini
+remove Rugen
+insere MiracleMax
+insere Huperdinck
+consulta Westley
+0

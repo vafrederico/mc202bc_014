@@ -1,0 +1,39 @@
+17 32
+insere Kim
+insere Denise
+insere Robin
+insere Donny
+insere Kim
+insere Robin
+insere Denise
+insere Kim
+matricula Kim EF314
+matricula Denise EA076
+matricula Robin LA114
+matricula Donny MT702
+consulta Kim
+consulta Denise
+consulta Robin
+consulta Donny
+desmatricula Denise EF314
+19 1
+insere Waters
+insere Gilmour
+insere Mason
+insere Wright
+insere Barrett
+matricula Wright EA044
+matricula Wright MC722
+matricula Mason EA960
+matricula Gilmour MC302
+matricula Gilmour EA044
+matricula Mason EA044
+matricula Waters EA044
+matricula Barrett MA044
+consulta Wright
+consulta Barrett
+alunos EA044
+remove Barrett
+consulta Barrett
+desmatricula Barrett EA772
+0
